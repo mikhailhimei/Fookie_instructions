@@ -12,8 +12,8 @@ export default function Accordion() {
       title: 'Шапка',
       content: (
         <div style={{paddingLeft: 40, paddingBottom:20}} className="max-w-2xl mx-auto bg-white p-6 rounded-xl shadow-lg border border-gray-200">
-          <FullscreenImage src={'../../img/header.jpg'} />
-          <FullscreenImage src={'../../img/search.jpg'} />
+          <FullscreenImage src={'./img/header.jpg'} />
+          <FullscreenImage src={'./img/search.jpg'} />
       <p className="text-gray-800 text-lg leading-relaxed mb-6">
         На странице отображаются следующие элементы:
       </p>
@@ -39,7 +39,7 @@ export default function Accordion() {
       title: 'Мини блок cookie',
       content: (
         <div style={{paddingLeft: 40, paddingBottom:20}}> 
-          <FullscreenImage style={'margan-left:30px'}  src={'../../img/miniBlock.jpg'} />
+          <FullscreenImage style={'margan-left:30px'}  src={'./img/miniBlock.jpg'} />
           <p className="text-gray-700 leading-relaxed">
             Отображается мини-блок с <strong>cookie</strong> с возможностью минимального редактирования. Также, если кука находится в <strong>избранном</strong>, можно <strong>активировать</strong> её.
           </p>
@@ -61,8 +61,8 @@ export default function Accordion() {
       content: (
         <div style={{paddingLeft: 40, paddingBottom:20}}>
           <div style={{display:"flex"}}>
-          <FullscreenImage style={'margan-left:30px'}  src={'../../img/modalEdit.jpg'} />
-          <FullscreenImage src={'../../img/modalEditDescription.jpg'} />
+          <FullscreenImage style={'margan-left:30px'}  src={'./img/modalEdit.jpg'} />
+          <FullscreenImage src={'./img/modalEditDescription.jpg'} />
           </div>
           <p className="text-gray-700 leading-relaxed">
             Позволяет <strong>добавить</strong> или <strong>отредактировать</strong> cookie на текущей странице.
@@ -86,7 +86,7 @@ export default function Accordion() {
       title: 'Меню',
       content: (
         <div style={{paddingLeft: 40, paddingBottom:20}}>
-          <FullscreenImage style={'margan-left:30px'}  src={'../../img/slide.jpg'} />
+          <FullscreenImage style={'margan-left:30px'}  src={'./img/slide.jpg'} />
           <ul className="list-disc list-inside space-y-2 pl-6 pb-5">
             <li><strong>Добавить</strong> — открывает модальное окно для создания новой cookie</li>
             <li><strong>Документация</strong> — переходит по ссылке, указанной в настройках</li>
@@ -104,7 +104,7 @@ export default function Accordion() {
       title: 'Модальное окно "Обновить"',
       content: (
         <div style={{paddingLeft: 40, paddingBottom:20}}>
-          <FullscreenImage src={'../../img/reload.jpg'} />
+          <FullscreenImage src={'./img/reload.jpg'} />
           <ul className="list-disc list-inside space-y-4">
             <li>Обновить текущие куки — обновляет текущие куки на странице</li>
             <li>
@@ -115,7 +115,7 @@ export default function Accordion() {
                   title="Обновить локально"
                   content={
                     <div style={{paddingLeft: 40, paddingBottom:20}}>
-                    <VideoUploader videoPath={"../../img/favoritLocal.mp4"} />
+                    <VideoUploader videoPath={"./img/favoritLocal.mp4"} />
                       <p className="text-gray-700 leading-relaxed mb-2">
                         Чтобы подтягивать документацию со страницы, необходимо, чтобы название cookie имело в коде дата‑сет:
                       </p>
@@ -137,7 +137,7 @@ export default function Accordion() {
                   title="Обновить удалённо"
                   content={
                     <div style={{paddingLeft: 40, paddingBottom:20}}>
-                    <VideoUploader videoPath={'../../img/favoritRemote.mp4'} />
+                    <VideoUploader videoPath={'./img/favoritRemote.mp4'} />
                       <p className="text-gray-700 leading-relaxed mb-2">
                         Чтобы обновить удалённо, необходимо, чтобы сервер возвращал JSON в формате:
                       </p>
@@ -173,7 +173,7 @@ export default function Accordion() {
         <div style={{paddingLeft: 40, paddingBottom:20}} className="bg-white p-6 rounded-xl shadow-md">
           <div className="flex items-start gap-4">
             {/* Иконка загрузки (опционально) */}
-            <FullscreenImage src={'../../img/upload.jpg'} />
+            <FullscreenImage src={'./img/upload.jpg'} />
             <div>
               <p className="text-gray-700 leading-relaxed">
                 Обеспечивает <strong>импорт</strong> cookie на страницу или в избранное, а также их <strong>экспорт</strong> для передачи или повторного использования.
@@ -198,7 +198,7 @@ export default function Accordion() {
       title: 'Настройки',
       content: (
         <div style={{paddingLeft: 40, paddingBottom:20}} className="bg-white p-6 rounded-xl shadow-md">
-          <FullscreenImage src={'../../img/settings.jpg'} />
+          <FullscreenImage src={'./img/settings.jpg'} />
           <p className="text-gray-700 font-semibold text-xl mb-4">
             Модальное окно настроек
           </p>
