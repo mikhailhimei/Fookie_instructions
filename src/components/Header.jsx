@@ -9,10 +9,6 @@ export default function Header() {
           <span className="text-2xl text-white font-bold">Fookie</span>
         </div>
         <div style={{marginRight:30}} className="flex items-center space-x-4">
-          {/* Support Button */}
-          <button className="px-4 py-2 bg-green-500 hover:bg-green-600 text-white rounded-md transition-colors duration-200">
-            Поддержать
-          </button>
         </div>
       </div>
     </header>
