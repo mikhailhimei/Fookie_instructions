@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "title": "Поиск по элементам",
+    "src": [],
+    "priority": 1,
+    "content": "<ul className='list-disc list-inside space-y-2 pl-6 pb-5'><li>Вы можете быстро находить нужные cookie по их названию.</li><li>Если cookie добавлена в избранное и имеет описание, поиск также учитывает ключевые слова из этого описания.</li></ul>"
+  },
+  {
+    "id": 2,
+    "title": "Сортировка",
+    "src": [],
+    "priority": 2,
+    "content": "<p className='text-gray-700 leading-relaxed'>Система позволяет упорядочивать cookie по разным критериям, чтобы упростить работу с большим количеством элементов:</p><ul className='list-disc list-inside space-y-2 pl-6 pb-5'><li><strong>По умолчанию</strong> — отображает cookie в стандартном порядке.</li><li><strong>По изменениям</strong> — сортирует по последним внесённым изменениям.</li><li><strong>По автозапуску</strong> — сначала показываются cookie с активным автозапуском, затем остальные.</li><li><strong>По избранным</strong> — в верхней части списка отображаются избранные cookie.</li></ul>"
+  },
+  {
+    "id": 3,
+    "title": "Аккордеоны \"Активные\" и \"Избранное\"",
+    "src": [],
+    "priority": 3,
+    "content": "<ul className='list-disc list-inside space-y-2 pl-6 pb-5'><li><strong>Активные</strong> - отображает список текущих активных cookie\\storage. Пользователь может просматривать эти данные и управлять ими.</li><li><strong>Избранное</strong> - содержит cookie, добавленные пользователем в избранное для быстрого доступа или последующего использования.</li></ul>"
+  },
+  {
+    "id": 4,
+    "title": "Таб с Cookie",
+    "src": [],
+    "priority": 4,
+    "content": "<p className='text-gray-700 leading-relaxed'>Таб предназначено для просмотра и быстрого редактирования параметров cookie.</p><ul className='list-disc list-inside space-y-2 pl-6 pb-5'><li><strong>Наименование cookie</strong> — при нажатии на название открывается модальное окно редактирования.</li><li><strong>Домен</strong> — отображается при наведении курсора на таб</li><li><strong>Поле ввода значения</strong> — позволяет изменить значение cookie. (Если значение имеет тип true/false, отображается селектор (переключатель) для выбора логического значения.)</li><li><strong>Чекбоксы httpOnly и secure</strong> — позволяют управлять соответствующими флагами cookie</li><li><strong>Кнопка “Принять”</strong> — сохраняет изменения cookie</li><li><strong>Кнопка “Удалить”</strong> — удаляет cookie из списка</li><li><strong>Индикатор активности (зелёная точка)</strong> — отображает статус автозапуска cookie</li></ul>"
+  },
+  {
+    "id": 5,
+    "title": "Модальное окно редактировать cookie — вкладка «Редактировать»",
+    "src": [],
+    "priority": 5,
+    "content": "<p className='text-gray-700 leading-relaxed'>Во вкладке <strong>«Редактировать»</strong> модального окна можно просматривать и изменять параметры выбранного cookie. Интерфейс разработан так, чтобы редактирование было простым и наглядным:</p><ul className='list-disc list-inside space-y-2 pl-6 pb-5'><li><strong>Название</strong> — отображает имя cookie.</li><li><strong>Домен</strong> — показывает, к какому домену принадлежит cookie.</li><li><strong>httpOnly</strong> и <strong>secure</strong> — флаги, которые можно включать или выключать с помощью чекбоксов.</li><li><strong>Значение</strong> — поле для изменения содержимого cookie.</li><li><strong>Применить</strong> — сохраняет внесённые изменения.</li><li><strong>Удалить</strong> — полностью удаляет cookie.</li><li>Для удобства можно нажать клавишу <strong>Enter</strong>, чтобы применить изменения без нажатия кнопки.</li></ul>"
+  },
+  {
+  "id": 6,
+  "title": "Модальное окно редактировать cookie — вкладка «Описание»",
+  "src": [],
+  "priority": 6,
+  "content": "<p className='text-gray-700 leading-relaxed'>Во вкладке <strong>«Описание»</strong> можно добавить краткую информацию о назначении cookie. Это помогает структурировать данные и быстрее находить нужные cookie при поиске.</p>"
+},{
+  "id": 7,
+  "title": "Модальное окно редактировать cookie — вкладка «Настройки»",
+  "src": [],
+  "priority": 7,
+  "content": "<p className='text-gray-700 leading-relaxed'>Во вкладке <strong>«Настройки»</strong> позволяет добавить cookie, в избранное или автозапуском.</p><ul className='list-disc list-inside space-y-2 pl-6 pb-5'><li><strong>Добавить в избранное</strong> — при активации чекбокса cookie добавляется в список избранных и становится доступна вкладка <strong>«Описание»</strong>.</li><li><strong>Автозапуск</strong> — включает автоматический запуск cookie при каждой перезагрузке страницы. Активные cookie отмечаются зелёной точкой, указывающей на включённый автозапуск.</li></ul>"
+},
+{
+  "id": 8,
+  "title": "Меню",
+  "src": [],
+  "priority": 8,
+  "content": "<p className='text-gray-700 leading-relaxed'>Во вкладке «Меню» доступны следующие кнопки</p><ul className='list-disc list-inside space-y-2 pl-6 pb-5'><li>Добавить cookie</li><li>Документация</li><li>Обновить</li><li>Подмена домена</li><li>Postman</li><li>Загрузить</li><li>Инструкция</li><li>Удалить</li></ul>"
+},
+{
+  "id": 9,
+  "title": "Модальное окно — «Добавить cookie»",
+  "src": [],
+  "priority": 9,
+  "content": "<p className='text-gray-700 leading-relaxed'><strong>«Добавить cookie»</strong> можно добавить новые cookie.</p><ul className='list-disc list-inside space-y-2 pl-6 pb-5'><li><strong>Наименование</strong> — уникальное имя cookie. Если ранее cookie уже добавлялась, то поле будет содержать подсказку, и нажатие <kbd>Tab</kbd> автоматически заполнит его.</li><li><strong>Домен</strong> — домен, на котором cookie будет активна. Необязательное поле.</li><li><strong>httpOnly и Secure</strong> — включите соответствующие чекбоксы для повышения безопасности cookie.</li><li><strong>Value</strong> — значение cookie.</li><li><strong>Применить</strong> — кнопка для сохранения cookie. После нажатия новая cookie станет доступной в списке и для дальнейшего использования.</li></ul>"
+},
+{
+  "id": 10,
+  "title": "Документация — быстрый доступ к фича-тоглам",
+  "src": [],
+  "priority": 10,
+  "content": "<p className='text-gray-700 leading-relaxed'><strong>«Документация»</strong> можно быстро перейти к документации ваших фича-тоглов, ссылка на вашу документацию указывается в настройках</p>"
+},
+{
+  "id": 11,
+  "title": "Кнопка «Обновить» — обновление текущих cookie",
+  "src": [],
+  "priority": 11,
+  "content": "<p className='text-gray-700 leading-relaxed'>Кнопка <strong>«Обновить текущие cookie»</strong> позволяет обновить информацию о текущих cookie на странице.</p>"
+},
+{
+  "id": 12,
+  "title": "Кнопка «Обновить» — обновление избранного — локальное обновление",
+  "src": [],
+  "priority": 12,
+  "content": "<p className='text-gray-700 leading-relaxed'>Кнопка <strong>«Обновить избранное»</strong> позволяет синхронизировать список избранных cookie с информацией из документации, например, из Confluence, и сохранить её в расширение.</p><ul className='list-disc list-inside space-y-2 pl-6'><li><strong>Локальный режимы добавления в избранное</strong> — вытягивает ваши cookie из документации на странице. Для корректной работы важно, чтобы элементы имели следующие <code>data-атрибуты</code>:</li><ul className='list-disc list-inside space-y-2 pl-6'><li><code>data-fookie=cookie_name</code> — название cookie</li><li><code>data-fookie=cookie_value</code> — значение cookie</li><li><code>data-fookie=cookie_description</code> — описание cookie (опционально)</li></ul></ul>"
+},
+{
+  "id": 13,
+  "title": "Кнопка «Обновить» — обновление избранного — удаленное обновление",
+  "src": [],
+  "priority": 13,
+  "content": "<p className='text-gray-700 leading-relaxed'>Кнопка <strong>«Обновить избранное»</strong> позволяет обновлять список избранных cookie, через удаленное получения данных с сервера.</p><ul className='list-disc list-inside space-y-2 pl-6 pb-5'><li><strong>Формат ответа сервера</strong> — данные должны приходить в виде массива объектов:</li><pre className='bg-gray-100 p-3 rounded'><code>[{ \"name\": \"\", \"value\": \"\", \"description\": \"\" }]</code></pre><li><strong>Описание полей</strong> — <code>name</code> — название cookie, <code>value</code> — значение cookie, <code>description</code> — описание cookie (опционально).</li><li><strong>Синхронизация</strong> — после получения данных с сервера список избранного автоматически обновляется в расширении.</li><li><strong>Включение удаленного формата</strong> - включается в настройках и необходимо указать url</li></ul>"
+},
+{
+  "id": 14,
+  "title": "Подмена домена",
+  "src": [],
+  "priority": 14,
+  "content": "<p className='text-gray-700 leading-relaxed'><strong>Подмена домена</strong> позволяет заменить домен у всех cookie на указанный в настройках. Например, с <code>test.mvideo.ru</code> на <code>mvideo.ru</code>.</br>Новый домен указывается в настройках.</p>"
+},
+{
+  "id": 15,
+  "title": "Postman",
+  "src": [],
+  "priority": 15,
+  "content": "<p className='text-gray-700 leading-relaxed'><strong>Postman</strong> позволяет скопировать все активные cookie в буфер обмена в формате, готовом для вставки в заголовки HTTP-запросов.</br> <strong>Формат для заголовков</strong> — cookie копируются в виде строки <code>name=value; name2=value2;</code>, подходящей для использования в <code>Cookie</code> заголовках запросов.</p>"
+},
+{
+  "id": 16,
+  "title": "Загрузка",
+  "src": [],
+  "priority": 16,
+  "content": "<p className='text-gray-700 leading-relaxed'><strong>Загрузка</strong> позволяет сохранить текущие cookie или список избранного для последующей передачи коллегам или загрузки на новое устройство.</p>"
+},
+{
+  "id": 17,
+  "title": "Переключатель Storage",
+  "src": [],
+  "priority": 17,
+  "content": "<p className='text-gray-700 leading-relaxed'><strong>Переключатель Storage</strong> в настройках позволяет выбирать, откуда получать данные: <strong>cookie</strong>, <strong>localStorage</strong> или <strong>sessionStorage</strong>.</p>"
+}
+]
