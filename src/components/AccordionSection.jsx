@@ -1,6 +1,10 @@
 import React from 'react';
+import { FullscreenImage } from './FullscreenImage';
+import { VideoUploader } from './VideoUploader'
+import DOMPurify from 'dompurify';
 
-export default function AccordionSection({ title, content, isOpen, onClick }) {
+
+export function AccordionElements({ title, content, isOpen, onClick, src }) {
   return (
     <div className="accordion-item">
       <button
@@ -25,10 +29,23 @@ export default function AccordionSection({ title, content, isOpen, onClick }) {
       </button>
 
       {isOpen && (
-        <div className="p-4 bg-gray-50 border-t border-gray-200 rounded-b-lg">
-          {content}
-        </div>
+        <>
+          <div style={{display:"flex", flexDirection:"column", alignItems:"center" }}>
+            {src ? src.map(elements => {
+              if(elements.includes('.mp4')){
+                return <VideoUploader src={`http://fookie.ru/video/${elements}`} />
+              }else{
+                return <FullscreenImage src={`http://fookie.ru/image/${elements}`} />
+              }
+            }) : ''}
+
+          </div>
+          <div className="p-4 bg-gray-50 border-t border-gray-200 rounded-b-lg" dangerouslySetInnerHTML = {{__html: DOMPurify.sanitize(content)}}>
+            {}
+          </div>
+        </>
       )}
+
     </div>
   );
 }

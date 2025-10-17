@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
-export const FullscreenImage = ({ src, alt, style }) => {
+export const FullscreenImage = ({ src, alt }) => {
+  console.log(src)
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClick = () => {

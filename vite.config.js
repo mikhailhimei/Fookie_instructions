@@ -8,11 +8,11 @@ export default defineConfig({
     viteStaticCopy({
       targets: [
         {
-          src: 'img/*',
-          dest: 'img' // копирует файлы прямо в dist/
+          src: 'public/*',
+          dest: 'public' // копирует файлы прямо в dist/
         }
       ]
     })
   ],
-  base: '/Fookie_instructions/', // если ты деплоишь на GitHub Pages
+  base: './', // если ты деплоишь на GitHub Pages
 })

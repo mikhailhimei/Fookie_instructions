@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 
-export function VideoUploader({ videoPath }) {
+export function VideoUploader({ src }) {
   const [videoSrc, setVideoSrc] = useState(null);
 
   // Если проп videoPath передан — используем его как источник
   useEffect(() => {
-    if (videoPath) {
-      setVideoSrc(videoPath);
+    if (src) {
+      setVideoSrc(src);
     }
-  }, [videoPath]);
+  }, [src]);
 
   return (
     <div className="flex flex-col items-center space-y-4 p-6 max-w-3xl mx-auto">
@@ -16,7 +16,6 @@ export function VideoUploader({ videoPath }) {
       {videoSrc ? (
         <div className="w-full max-w-xl">
           <video
-          style={{width:500}}
             src={videoSrc}
             controls
             className="w-full rounded-lg shadow-md"
